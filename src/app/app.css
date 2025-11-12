@@ -1,0 +1,63 @@
+ .header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #06e287;
+    text-align: center;
+    color: white;
+} 
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #06e287;
+    text-align: center;
+    color: white;
+} 
+
+/* Make the page layout stretch full height
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* HEADER */
+/* .header {
+  position: fixed; /* keep it at the top of the screen */
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #06e287;
+  text-align: center; */
+  /* color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; stay above table */
+/* } */ 
+
+/* CONTENT AREA */
+/* main, router-outlet { */
+  /* flex: 1;
+  margin-top: 60px; /* push content below header */
+  /* margin-bottom: 60px; push above footer */
+/* } */ 
+
+/* FOOTER 
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #06e287;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1000;
+} */

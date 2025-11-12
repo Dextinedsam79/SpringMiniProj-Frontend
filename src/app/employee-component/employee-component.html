@@ -1,0 +1,19 @@
+<!-- <div class="table-responsive" style="max-height: 400px; overflow-y: auto;"> -->
+  
+    <table class="table table-striped">
+    <thead>
+        <tr>
+        <th>Employee Name</th>
+        <th>Designation</th>
+        <th>Employee Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of employees">
+            <td>{{emp.empName}}</td>
+            <td>{{emp.empDesignation}}</td>
+            <td>{{emp.empSalary}}</td>
+        </tr>
+    </tbody>
+</table>
+

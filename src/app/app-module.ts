@@ -3,14 +3,22 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { EmployeeComponent } from './employee-component/employee-component';
+import { FormsModule } from '@angular/forms';
+import { CreateEmployeeComponent } from './create-employee-component/create-employee-component';
 
 @NgModule({
   declarations: [
-    App
+    App,
+    EmployeeComponent,
+    CreateEmployeeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners(),
