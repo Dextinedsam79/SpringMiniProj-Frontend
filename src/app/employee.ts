@@ -1,5 +1,5 @@
 export class Employee {
-    empId?: number;
+    empId!: number;
 
     empName: string = '';
     empDesignation: string = '';

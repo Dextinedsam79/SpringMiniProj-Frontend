@@ -6,6 +6,7 @@
         <th>Employee Name</th>
         <th>Designation</th>
         <th>Employee Salary</th>
+        <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -13,6 +14,9 @@
             <td>{{emp.empName}}</td>
             <td>{{emp.empDesignation}}</td>
             <td>{{emp.empSalary}}</td>
+            <td>
+                <button (click)="updateEmployee(emp.empId!)" class="btn btn-success">Update</button>
+            </td>
         </tr>
     </tbody>
 </table>
